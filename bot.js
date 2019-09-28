@@ -6,7 +6,7 @@ const math = require('math-expression-evaluator');   //WESO#0001
 const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
-const prefix = '!'
+const prefix = '-'
 
 client.on('message', msg => {  //WESO#0001
     if (msg.content === 'باك') {  //WESO#0001
@@ -15,8 +15,8 @@ client.on('message', msg => {  //WESO#0001
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'ويسو') {  //WESO#0001
-      msg.reply('**ويسو مات**');  //WESO#0001
+    if (msg.content === 'باي ') {  //WESO#0001
+      msg.reply('**مع السلامة**');  //WESO#0001
     }
   });
 
